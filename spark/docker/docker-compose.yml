@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+   spark:
+      image: gogopen85/all-spark-notebook:v0.3
+      volumes: 
+        - ../:/home/jovyan/work
+      ports:
+        - 8888:8888
