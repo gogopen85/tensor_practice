@@ -2,8 +2,8 @@ version: '3'
 
 services:
    pytorch:
-      image: gogopen85/pytorch-notebook:v0.1
+      image: gogopen85/pytorch-notebook:v0.2
       volumes: 
-        - ../:/home/jovyan/work
+        - ../:/app
       ports:
         - 8888:8888
