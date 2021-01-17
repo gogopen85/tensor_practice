@@ -2,7 +2,7 @@ version: '3'
 
 services:
    pytorch:
-      image: gogopen85/pytorch-notebook:v0.2
+      image: gogopen85/pytorch-notebook:v0.3
       volumes: 
         - ../:/app
       ports:

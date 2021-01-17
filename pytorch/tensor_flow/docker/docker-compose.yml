@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+   tensorflow:
+      image: tensorflow/tensorflow:1.13.1-py3-jupyter
+      volumes: 
+        - ../:/tf
+      ports:
+        - 8888:8888
+        - 6006:6006
